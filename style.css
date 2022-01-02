@@ -1,0 +1,236 @@
+
+
+
+* {
+                                            color: #111 !important;
+                                          }
+
+                                          html {
+                                            font-size: 100%;
+                                          }
+
+                                          html, body {min-height: 100%; min-width: 100%;}
+                                          body {
+                                            font-family: "Cormorant Garamond";
+                                            font-size: .35em;
+                                            background-color: #111;
+                                            color: #000;
+                  position: relative;
+                                            margin-bottom: 4em;
+                                            text-align: left;
+                                    \        /*        background: url(lawyer3.png) fixed no-repeat right top; */
+                                          }
+                                          h1 {
+                                            font-family: "Oswald";
+                                            font-size: 2.5em;
+                                            padding: .5em;
+                                          }
+
+
+                                          .carousel-caption h5, .carousel-caption p {
+                                            font-family: "Oswald";
+                                            font-size: 7em;
+                                            background-color:#111;
+                                            color: #fff !important;
+                                          }
+                                          .carousel-caption {
+                                            position: absolute;
+                                            top: 30%;
+
+                                          }
+
+      /*
+                                          .glow {
+
+              color: #fff;
+              text-align: center;
+              -webkit-animation: glow 1s ease-in-out infinite alternate;
+              -moz-animation: glow 1s ease-in-out infinite alternate;
+              animation: glow 1s ease-in-out infinite alternate;
+            }
+
+            @-webkit-keyframes glow {
+              from {
+                text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #471414, 0 0 40px #471414, 0 0 50px #471414, 0 0 60px #471414, 0 0 70px #471414;
+              }
+              to {
+                text-shadow: 0 0 20px #fff, 0 0 30px #471414, 0 0 40px #471414, 0 0 50px #471414, 0 0 60px #471414, 0 0 70px #471414, 0 0 80px #471414;
+              }
+            } */
+
+
+
+                                           div, h1 {
+                                  animation: fadein 2s;
+                                  -moz-animation: fadein 2s; /* Firefox */
+                                  -webkit-animation: fadein 2s; /* Safari and Chrome */
+                                  -o-animation: fadein 2s; /* Opera */
+                              }
+                              @keyframes fadein {
+                                  from {
+                                      opacity:0;
+                                  }
+                                  to {
+                                      opacity:1;
+                                  }
+                              }
+                              @-moz-keyframes fadein { /* Firefox */
+                                  from {
+                                      opacity:0;
+                                  }
+                                  to {
+                                      opacity:1;
+                                  }
+                              }
+                              @-webkit-keyframes fadein { /* Safari and Chrome */
+                                  from {
+                                      opacity:0;
+                                  }
+                                  to {
+                                      opacity:1;
+                                  }
+                              }
+                              @-o-keyframes fadein { /* Opera */
+                                  from {
+                                      opacity:0;
+                                  }
+                                  to {
+                                      opacity: 1;
+                                  }
+                              }
+
+                              .lines {
+                                  border-right: 1px solid #999;
+                                  padding-right: 1em;
+                                  border-top: 1px solid #999;
+                              }
+
+                              .linetop {
+                                  border-top: 1px solid #999
+                              }
+
+                              span {
+                                  text-align: left;
+                              }
+
+                              .container-md {
+                                  border: 1px solid #FFF;
+                                  margin-top: 2em;
+                                  background: linear-gradient(89.9deg, rgb(208, 246, 255) 0.1%, rgb(255, 237, 237) 47.9%, rgb(255, 255, 231) 100.2%);
+                                  /*
+                                  background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%); */
+                                  /*
+                                  background-color: rgba(199, 199, 199, .5)*/
+                              }
+
+                              .padding {
+                                  padding: .5em;
+                              }
+
+                              #background-video {
+                          width: 100vw;
+                          height: 100vh;
+                          object-fit: cover;
+                          position: fixed;
+                          left: 0;
+                          right: 0;
+                          top: 0;
+                          bottom: 0;
+                          z-index: -1;
+                        }
+
+                        @media (max-width: 750px) {
+                            #background-video { display: none; }
+                            body {
+                              background: url("https://assets.codepen.io/6093409/river.jpg") no-repeat;
+                              background-size: cover;
+                            }
+                        }
+
+                        .bio {
+                          padding: 1em 2em 1em 1em;
+                        }
+
+                        .bio2 {
+                          margin-left: 0em;
+                        }
+
+                        #lincoln {
+                          width: 90%;
+                          margin-left: 1em
+                        }
+
+                        #law {
+                          font-weight: bold;
+                          background-color:rgb(109, 23, 44);
+                          color: #fff;
+                          text-decoration: none;
+                          border-left: 3px solid #777;
+                          border-bottom: 3px solid #777;
+                          padding: .4em 1em;
+                          opacity:.7;
+                        }
+
+                        .email {
+                          font-style: italic;
+                          text-align: center;
+                        }
+
+                        nav {
+                          display: flex;
+                          border-left: 3px solid #999;
+                          border-bottom: 3px solid #999;
+                        }
+
+                        nav#link .item {
+                          flex-direction: row;
+                          flex-basis: 25%;
+                          justify-content: space-around;
+                          background-color:#FFF;
+                          color: #111;
+                          box-sizing: border-box;
+                          text-align: center;
+                          padding: .5em;
+
+                          a {
+                            color:#111 !important;
+                          }
+
+                          nav#link .item a {
+                            color: #111 !important;
+                          }
+
+                        a:hover {
+                            background-color: #444;
+                            color: #888
+                          }
+                        }
+
+                        #justice {
+                        min-width: 100%;
+                          min-height: 100%;
+
+                        }
+
+                        #justicetext {
+                          position: absolute;
+                          top: 50%;
+                          left: 50%;
+                          font-family: "Oswald";
+                          z-index: 5;
+                        }
+
+                        #carry {
+                          min-width: 100%;
+                          min-height: 100%;
+                          font-size: 4em;
+                        }
+
+
+
+
+@media only screen and (max-width: 900px) {
+  html {
+    font-size: 75% !important;
+  }
+}
